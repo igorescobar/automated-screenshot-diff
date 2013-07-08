@@ -1,12 +1,11 @@
 {
-  "name": "screenshot-diff",
-  "description": "Automated screenshot-diff",
+  "name": "automated-screenshot-diff",
+  "description": "Automated Screenshot Diff - Continuous Safe Deployment Made Easy",
   "version": "0.0.1",
-  "private":"true",
   "author": {
     "name": "Igor Escobar",
     "email": "blog@igorescobar.com",
-    "url": "http://www.igorescobar.com"
+    "url": "http://www.igorescobar.com/"
   },
   "contributors": [],
   "repository" : { 
@@ -14,7 +13,7 @@
     "url" : ""
   },
   "engines": [
-    "node >= 0.10.12"
+    "node >= 0.9.0"
   ],
   "dependencies": {
     "walk": "*",
@@ -22,11 +21,10 @@
     "canvas": "1.0.3",
     "imagediff": "1.0.4",
     "commander": "1.2.0",
-    "colors": "0.6.0-1",
-    "temp": "0.4.0"
+    "colors": "0.6.0-1"
   },
   "devDependencies": {},
   "scripts": {},
-  "bin": "bin/screenshot-diff",
-  "main": "lib/screenshot-diff"
+  "bin": "bin/automated-screenshot-diff",
+  "main": "lib/screenshots.js"
 }
