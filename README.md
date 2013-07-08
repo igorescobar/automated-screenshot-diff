@@ -3,6 +3,9 @@ automated-screenshot-diff
 
 Continuous Safe Deployment Made Easy
 
+## Why?
+Although testing gains evidence in software development every day, it is still rare to find a test strategy that goes beyond functional testing. While layout testing remains forgotten by most, we all have seen cases where the application functionally works just fine but that button somehow got moved 2 pixels do the right or that table cell lost it's alignment and the client wont approved it. Manually testing each screen tends to be error prone since some changes are too small for a QA to notice (specially after seeing dozens of other screens) and can take weeks depending on the system size and complexity. Automated Screenshot Diff allows you and your team to extend test coverage up to the application layout, making sure you are aware of any layout changes whether you use manual or automated testing strategies.
+
 ## How it Works?
 It's simple. All you have to do is generate your system's screenshots with a simple naming convention:
 Example:
