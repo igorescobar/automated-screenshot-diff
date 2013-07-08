@@ -3,9 +3,6 @@ automated-screenshot-diff
 
 Continuous Safe Deployment Made Easy
 
-
-## Why?
-
 ## How it Works?
 It's simple. All you have to do it's generate your system's screenshots with a simple naming convention:
 Exemple:
