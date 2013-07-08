@@ -4,8 +4,8 @@ automated-screenshot-diff
 Continuous Safe Deployment Made Easy
 
 ## How it Works?
-It's simple. All you have to do it's generate your system's screenshots with a simple naming convention:
-Exemple:
+It's simple. All you have to do is generate your system's screenshots with a simple naming convention:
+Example:
 ```
 SCENARIO_NAME-VERSION.png // login_screen-v1.png
 ```
@@ -32,4 +32,12 @@ $ automated-screenshot-diff compare --previous-release v1 --current-release v2 -
 ```bash
 $ automated-screenshot-diff compare --previous-release v1 --current-release v2 --source screenshots/ --ignore-not-changed=true
 ```
+
+## Demonstration
+##### login_widget-v1.png
+![login_widget-v1.png](http://img15.imageshack.us/img15/3887/bjwf.png)
+##### login_widget-v2.png
+![login_widget-v1.png](http://img823.imageshack.us/img823/3369/6ig7.png)
+##### Perceptual Diff Between login_widget-v1.png and login_widget-v2.png
+![login_widget-v1.png](http://img27.imageshack.us/img27/1710/7o7o.png)
 
