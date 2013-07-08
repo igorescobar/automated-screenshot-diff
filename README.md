@@ -15,9 +15,6 @@ in the same directory as your screenshots. If you don't known how to gereate tho
 
 ## Dependencies
   * [NodeJS](http://nodejs.org/)
-  * [PhantomJS](http://phantomjs.org)
-  * [js-imagediff](https://github.com/HumbleSoftware/js-imagediff)
-  * [node-canvas](https://github.com/LearnBoost/node-canvas)
   * [Cairo](http://cairographics.org)
 
 ## Instalation
