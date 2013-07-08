@@ -24,7 +24,7 @@ and calculate differences between your pre-production (stage) release and your p
 $ npm install -g automated-screenshot-diff
 ```
 ## Usage Examples
-![Screenshot Example](http://imageshack.us/a/img854/9624/87w6.png)
+![Screenshot Example](http://img580.imageshack.us/img580/5731/3bs.png)
 
 #### To compare release v1 and v2.
 ```bash
