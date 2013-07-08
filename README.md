@@ -14,7 +14,7 @@ and calculate differences between your pre-production (stage) release and your p
 in the same directory as your screenshots. If you don't known how to gereate those screenshots, take a look at [examples folder](https://github.com/igorescobar/automated-screenshot-diff/tree/master/examples).
 
 ## Dependencies
-  * [NodeJS](http://nodejs.org/)
+  * [Node.JS](http://nodejs.org/)
   * [Cairo](http://cairographics.org)
 
 ## Instalation
