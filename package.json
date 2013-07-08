@@ -1,0 +1,32 @@
+{
+  "name": "screenshot-diff",
+  "description": "Automated screenshot-diff",
+  "version": "0.0.1",
+  "private":"true",
+  "author": {
+    "name": "Igor Escobar",
+    "email": "blog@igorescobar.com",
+    "url": "http://www.igorescobar.com"
+  },
+  "contributors": [],
+  "repository" : { 
+    "type" : "git", 
+    "url" : ""
+  },
+  "engines": [
+    "node >= 0.10.12"
+  ],
+  "dependencies": {
+    "walk": "*",
+    "phantomjs": "1.9.1-1",
+    "canvas": "1.0.3",
+    "imagediff": "1.0.4",
+    "commander": "1.2.0",
+    "colors": "0.6.0-1",
+    "temp": "0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "bin": "bin/screenshot-diff",
+  "main": "lib/screenshot-diff"
+}

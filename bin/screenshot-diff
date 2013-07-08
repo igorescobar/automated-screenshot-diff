@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var program = require('commander'),
+    Screenshots  = require('../lib/screenshots'),
+    package = require('../package.json');
+
+program
+  .version(package.version)
+
+program
+  .command('compare')
+  .description('command to compare screenshots')
+  .option('-p --previous-release [previousRelease]', 'Previous release beeing compared.')
+  .option('-c --current-release [currentRelease]', 'Current release beeing compared.')
+  .option('-s --source [source]', 'Where your screenshots are at?')
+  .option('-i --ignore-not-changed [ignoreNotChanged]', 'Should I ignore not changed scenarios?')
+  .action(function(opts){
+    new Screenshots().compare(opts);
+  })
+
+program.parse(process.argv);
