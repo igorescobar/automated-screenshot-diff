@@ -1,4 +1,4 @@
-// casperjs test_screen.js --release=v2 --screenshots-folder=screenshots/
+// casperjs capturing-screenshots-example.js --release=v2 --screenshots-folder=screenshots/
 
 var casper = require('casper').create({
   verbose: true, logLevel: "debug"
