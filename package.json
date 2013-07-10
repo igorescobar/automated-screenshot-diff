@@ -1,7 +1,7 @@
 {
   "name": "automated-screenshot-diff",
   "description": "Automated Screenshot Diff - Continuous Safe Deployment Made Easy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "Igor Escobar",
     "email": "blog@igorescobar.com",
@@ -18,6 +18,7 @@
   "dependencies": {
     "walk": "*",
     "canvas": "1.0.3",
+    "handlebars": "1.0.12",
     "imagediff": "1.0.4",
     "commander": "1.2.0",
     "colors": "0.6.0-1"
