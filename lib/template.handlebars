@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Automated Screenshot Diff</title>
+	<style type="text/css">
+		h1 {color: #333; font: 400 87px/84px Abril Fatface;margin:0px}
+		h2 {font: 400 32px/46px "open sans"; margin: 0px 0px 35px 0px}
+		h3 {font: 100 14px/33px "open sans"; margin:0px}
+		footer p {font: 200 18px/24px "open sans"; margin:10px}
+		.images .image {cursor: pointer}
+		.images .image, .images .image-diff {display:inline-block; max-width: 49%}
+	</style>
+</head>
+<body>
+<h1>Automated Screenshot Diff</h1>
+<h2>Analysis comparing <strong>{{previousRelease}}</strong> with <strong>{{currentRelease}}</strong></h2>
+
+{{#files}}
+<div class="images">
+	<div class="image">
+		<h3>{{file_a}}</h3>
+		<img src="{{file_a}}" file-a="{{file_a}}" file-b="{{file_b}}"/>
+	</div>
+	<div class="image-diff">
+		<h3>{{diffFile}}</h3>
+		<img src="{{diffFile}}" />
+	</div>
+</div>
+{{/files}}
+
+<footer>
+	<p>The <a href="https://github.com/igorescobar/automated-screenshot-diff">automated-screenshot-diff</a> was written by <a href="http://www.igorescobar.com/" rel="author" target="_blank">Igor Escobar</a> and the source-code's available in <a href="https://github.com/igorescobar/automated-screenshot-diff" target="_blank">GitHub</a>.</p>
+</footer>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$('.image img').click(function() {
+	var src = $(this).attr('src') == $(this).attr('file-a') ? $(this).attr('file-b') : $(this).attr('file-a');
+	$(this).siblings('h3').html(src);
+	$(this).attr('src', src);
+});
+</script>
+</body>
+</html>

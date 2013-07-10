@@ -12,8 +12,9 @@ program
   .description('command to compare screenshots')
   .option('-p --previous-release [previousRelease]', 'Previous release beeing compared.')
   .option('-c --current-release [currentRelease]', 'Current release beeing compared.')
-  .option('-s --source [source]', 'Where your screenshots are at?')
+  .option('-s --source [source]', 'Where are your screenshots folder?')
   .option('-i --ignore-not-changed [ignoreNotChanged]', 'Should I ignore not changed scenarios?')
+  .option('-o --outputFormat [outputFormat]', 'HTML or JSON?')
   .action(function(opts){
     new Screenshots().compare(opts);
   })
