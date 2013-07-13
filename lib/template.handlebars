@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Automated Screenshot Diff</title>
@@ -38,11 +37,11 @@
 <link href="http://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
 <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-$('.image img').click(function() {
-	var src = $(this).attr('src') == $(this).attr('file-a') ? $(this).attr('file-b') : $(this).attr('file-a');
-	$(this).siblings('h3').html(src);
-	$(this).attr('src', src);
-});
+	$('.image img').click(function() {
+		var src = $(this).attr('src') == $(this).attr('file-a') ? $(this).attr('file-b') : $(this).attr('file-a');
+		$(this).siblings('h3').html(src);
+		$(this).attr('src', src);
+	});
 </script>
 </body>
 </html>
