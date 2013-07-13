@@ -31,6 +31,6 @@ describe('#compare()', function(){
 	});
 
 	it('should execute diff', function(){
-		var data = this.screenshots.compare({currentRelease: 'v1', previousRelease: 'v2', source: 'images/'});
+		var data = this.screenshots.compare({currentRelease: 'v2', previousRelease: 'v1', source: 'test/images/'});
 	});
 })
