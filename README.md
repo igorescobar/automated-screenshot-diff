@@ -20,12 +20,12 @@ in the same directory as your screenshots. If you don't known how to gereate tho
   * [Node.JS](http://nodejs.org/)
   * [Cairo](http://cairographics.org)
 
-## Instalation (Mac)
+## Installation (Mac)
 ```bash
-xcode-select --install
+$ xcode-select --install
 // download and install XQuartz: http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.5.dmg
 $ brew install cairo
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/X11/lib/pkgconfig
+$ export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/X11/lib/pkgconfig
 $ npm install -g automated-screenshot-diff
 ```
 ## Usage Examples
