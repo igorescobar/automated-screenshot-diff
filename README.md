@@ -1,6 +1,6 @@
-## automated-screenshot-diff
-[![NPM](https://nodei.co/npm/automated-screenshot-diff.png)](https://nodei.co/npm/automated-screenshot-diff/)
+automated-screenshot-diff
 =========================
+[![NPM](https://nodei.co/npm/automated-screenshot-diff.png)](https://nodei.co/npm/automated-screenshot-diff/)
 
 Continuous Safe Deployment Made Easy
 
