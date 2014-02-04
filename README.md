@@ -1,4 +1,5 @@
 automated-screenshot-diff [![NPM version](https://badge.fury.io/js/automated-screenshot-diff.png)](http://badge.fury.io/js/automated-screenshot-diff)
+[![NPM](https://nodei.co/npm/automated-screenshot-diff.png)](https://nodei.co/npm/automated-screenshot-diff/)
 =========================
 
 Continuous Safe Deployment Made Easy
