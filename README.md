@@ -25,7 +25,7 @@ in the same directory as your screenshots. If you don't known how to gereate tho
 $ npm install -g automated-screenshot-diff
 ```
 
-Now available as a [GruntJS](http://gruntjs.com/) [plugin](https://npmjs.org/package/grunt-screenshot-diff)
+Also available as a [GruntJS](http://gruntjs.com/) [plugin](https://npmjs.org/package/grunt-screenshot-diff)
 
 ## Usage Examples
 ![Screenshot Example](http://img580.imageshack.us/img580/5731/3bs.png)
