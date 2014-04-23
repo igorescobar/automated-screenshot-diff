@@ -48,6 +48,9 @@ $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o html
 ```bash
 $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json
 ```
+#### To compare release v1 and v2, and saving the analysis as JSON and HTML.
+```bash
+$ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json,html
 
 ## Demonstration
 ##### login_widget-v1.png
