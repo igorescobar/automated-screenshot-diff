@@ -15,7 +15,9 @@ SCENARIO_NAME-VERSION.png // login_screen-v1.png
 ```
 Then `automated-screenshot-diff` will scan your screenshot's folder 
 and calculate differences between your pre-production (stage) release and your production release. All generated image diffs will be
-in the same directory as your screenshots. If you don't known how to gereate those screenshots, take a look at [examples folder](https://github.com/igorescobar/automated-screenshot-diff/tree/master/examples).
+in the same directory as your screenshots. If you don't known how to gereate those screenshots, take a look at [examples folder](https://github.com/igorescobar/automated-screenshot-diff/tree/master/examples). 
+
+You can also use this wrapper developed by @lisotton and use it to make easier to generate all those screenshots: [screenshot-crawller](https://github.com/lisotton/screenshot-crawler)
 
 ## Dependencies
   * [Node.JS](http://nodejs.org/)
