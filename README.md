@@ -53,10 +53,11 @@ $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json
 #### To compare release v1 and v2, and saving the analysis as JSON and HTML.
 ```bash
 $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json,html
+```
 
 ## Demonstration
 ##### login_widget-v1.png
-[![login_widget-v1.png](https://nodei.co/npm/automated-screenshot-diff.png)](http://img15.imageshack.us/img15/3887/bjwf.png)
+![login_widget-v1.png](http://img15.imageshack.us/img15/3887/bjwf.png)
 ##### login_widget-v2.png
 ![login_widget-v1.png](http://img823.imageshack.us/img823/3369/6ig7.png)
 ##### Perceptual Diff Between login_widget-v1.png and login_widget-v2.png
