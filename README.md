@@ -32,7 +32,7 @@ $ export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/X11/lib/pkgconfig
 $ npm install -g automated-screenshot-diff
 ```
 ## Usage Examples
-![Screenshot Example](http://img580.imageshack.us/img580/5731/3bs.png)
+![Screenshot Example](https://raw.githubusercontent.com/igorescobar/automated-screenshot-diff/master/test/images/login_widget-v1.png)
 
 #### To compare release v1 and v2.
 ```bash
@@ -57,10 +57,10 @@ $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json,html
 
 ## Demonstration
 ##### login_widget-v1.png
-![login_widget-v1.png](http://img15.imageshack.us/img15/3887/bjwf.png)
+![login_widget-v1.png](https://raw.githubusercontent.com/igorescobar/automated-screenshot-diff/master/test/images/login_widget-v1.png)
 ##### login_widget-v2.png
-![login_widget-v1.png](http://img823.imageshack.us/img823/3369/6ig7.png)
+![login_widget-v1.png](https://raw.githubusercontent.com/igorescobar/automated-screenshot-diff/master/test/images/login_widget-v2.png)
 ##### Perceptual Diff Between login_widget-v1.png and login_widget-v2.png
-![login_widget-v1.png](http://img27.imageshack.us/img27/1710/7o7o.png)
+![login_widget-v1.png](https://raw.githubusercontent.com/igorescobar/automated-screenshot-diff/master/test/images/login_widget-v1-v2-diff.png)
 ##### HTML Ouput example
-![v1-v3-diff.html](http://img90.imageshack.us/img90/782/ffp.png)
+![v1-v3-diff.html](http://s33.postimg.org/qrv1cktx9/Screen_Shot_2016_05_31_at_17_54_29.png)
