@@ -63,4 +63,4 @@ $ automated-screenshot-diff compare -p v1 -c v2 -s screenshots/ -o json,html
 ##### Perceptual Diff Between login_widget-v1.png and login_widget-v2.png
 ![login_widget-v1.png](https://raw.githubusercontent.com/igorescobar/automated-screenshot-diff/master/test/images/login_widget-v1-v2-diff.png)
 ##### HTML Ouput example
-![v1-v3-diff.html](http://s33.postimg.org/qrv1cktx9/Screen_Shot_2016_05_31_at_17_54_29.png)
+![v1-v3-diff.html](https://s11.postimg.org/61k207rhf/Screen_Shot_2016_10_10_at_19_01_42.png)
